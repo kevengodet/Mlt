@@ -1,5 +1,14 @@
 {
+    "name": "adagio/mlt",
+    "description": "php-mlt wrapper written in PHP 5.3",
+    "license": "MIT",
     "require": {
+        "php": ">=5.3.0",
         "symfony/event-dispatcher": "2.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Adagio\\Mlt": "src/"
+        }
     }
 }
